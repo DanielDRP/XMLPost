@@ -1,0 +1,17 @@
+TERRITORIO#es	TERRITORIO_CODE	MEDIDAS#es	MEDIDAS_CODE	OBS_VALUE	ESTADO_OBSERVACION#es	CONFIDENCIALIDAD_OBSERVACION#es	NOTAS_OBSERVACION
+Lanzarote	ES708	Altitud máxima	ALTITUD_MAXIMA	672			Peñas del Chache
+Lanzarote	ES708	Longitud de la línea de costa	LONGITUD_LINEA_COSTA	237			Incluye La Graciosa (30 km), Alegranza (14 km) y Montaña Clara (6 km).
+Tenerife	ES709	Altitud máxima	ALTITUD_MAXIMA	3715			Teide
+Tenerife	ES709	Longitud de la línea de costa	LONGITUD_LINEA_COSTA	336			
+Canarias	ES70	Altitud máxima	ALTITUD_MAXIMA	3715			Teide
+Canarias	ES70	Longitud de la línea de costa	LONGITUD_LINEA_COSTA	1583			Incluye otros islotes no incluidos en el desglose por islas (82 km).
+La Palma	ES707	Altitud máxima	ALTITUD_MAXIMA	2428			Roque de los Muchachos
+La Palma	ES707	Longitud de la línea de costa	LONGITUD_LINEA_COSTA	162			
+Fuerteventura	ES704	Altitud máxima	ALTITUD_MAXIMA	812			Jandía
+Fuerteventura	ES704	Longitud de la línea de costa	LONGITUD_LINEA_COSTA	310			Incluye Isla de Lobos (12 km).
+La Gomera	ES706	Altitud máxima	ALTITUD_MAXIMA	1487			Garajonay
+La Gomera	ES706	Longitud de la línea de costa	LONGITUD_LINEA_COSTA	97			
+El Hierro	ES703	Altitud máxima	ALTITUD_MAXIMA	1502			Malpaso
+El Hierro	ES703	Longitud de la línea de costa	LONGITUD_LINEA_COSTA	107			
+Gran Canaria	ES705	Altitud máxima	ALTITUD_MAXIMA	1949			Pico de las Nieves y Morro de la Agujereda
+Gran Canaria	ES705	Longitud de la línea de costa	LONGITUD_LINEA_COSTA	252			
