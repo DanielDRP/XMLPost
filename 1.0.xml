@@ -1,0 +1,999 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<stat:dataset xmlns:cdomain="http://www.siemac.org/metamac/rest/common/v1.0/domain" xmlns:stat="http://www.siemac.org/metamac/rest/statistical-resources/v1.0/domain" xmlns:ns3="http://www.siemac.org/metamac/statistical-resources/rest/common/v1.0/domain" kind="statisticalResources#dataset">
+    <ns3:id>C00044A_000002</ns3:id>
+    <ns3:urn>urn:siemac:org.siemac.metamac.infomodel.statisticalresources.Dataset=ISTAC:C00044A_000002(1.0)</ns3:urn>
+    <ns3:selfLink kind="statisticalResources#dataset" href="https://datos.canarias.es/api/estadisticas/statistical-resources/v1.0/datasets/ISTAC/C00044A_000002/1.0"/>
+    <ns3:parentLink kind="statisticalResources#datasets" href="https://datos.canarias.es/api/estadisticas/statistical-resources/v1.0/datasets"/>
+    <ns3:name>
+        <cdomain:text xml:lang="es">Residuos urbanos según tipos de residuos. Canarias por años</cdomain:text>
+    </ns3:name>
+    <ns3:description>
+        <cdomain:text xml:lang="es">&lt;div style=""&gt;&lt;font face="Arial, Verdana, sans-serif"&gt;&lt;span style="font-size: 11px;"&gt;Este conjunto de datos proporciona información sobre la cantidad de residuos urbanos recogidos según tipos de residuos en Canarias.&amp;nbsp;&lt;/span&gt;&lt;/font&gt;Datos anuales desde el año 2004.&lt;/div&gt;</cdomain:text>
+    </ns3:description>
+    <ns3:selectedLanguages total="3">
+        <ns3:language>es</ns3:language>
+        <ns3:language>en</ns3:language>
+        <ns3:language>ca</ns3:language>
+    </ns3:selectedLanguages>
+    <ns3:visualizerHtmlLink>https://www3.gobiernodecanarias.org/istac/statistical-visualizer/visualizer/data.html?resourceType=dataset&amp;agencyId=ISTAC&amp;resourceId=C00044A_000002&amp;version=1.0</ns3:visualizerHtmlLink>
+    <ns3:metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="stat:DatasetMetadata">
+        <ns3:language kind="structuralResources#code">
+            <cdomain:id>es</cdomain:id>
+            <cdomain:urn>urn:sdmx:org.sdmx.infomodel.codelist.Code=ISTAC:CL_LANGUAGE_639_1(01.000).es</cdomain:urn>
+            <cdomain:selfLink kind="structuralResources#code" href="https://datos.canarias.es/api/estadisticas/structural-resources/latest/codelists/ISTAC/CL_LANGUAGE_639_1/01.000/codes/es"/>
+            <cdomain:name>
+                <cdomain:text xml:lang="es">Español (o Castellano)</cdomain:text>
+                <cdomain:text xml:lang="en">Spanish; Castilian</cdomain:text>
+            </cdomain:name>
+        </ns3:language>
+        <ns3:languages total="1">
+            <ns3:resource kind="structuralResources#code">
+                <cdomain:id>es</cdomain:id>
+                <cdomain:urn>urn:sdmx:org.sdmx.infomodel.codelist.Code=ISTAC:CL_LANGUAGE_639_1(01.000).es</cdomain:urn>
+                <cdomain:selfLink kind="structuralResources#code" href="https://datos.canarias.es/api/estadisticas/structural-resources/latest/codelists/ISTAC/CL_LANGUAGE_639_1/01.000/codes/es"/>
+                <cdomain:name>
+                    <cdomain:text xml:lang="en">Spanish; Castilian</cdomain:text>
+                    <cdomain:text xml:lang="es">Español (o Castellano)</cdomain:text>
+                </cdomain:name>
+            </ns3:resource>
+        </ns3:languages>
+        <ns3:statisticalOperation kind="statisticalOperations#operation">
+            <cdomain:id>C00044A</cdomain:id>
+            <cdomain:urn>urn:siemac:org.siemac.metamac.infomodel.statisticaloperations.Operation=C00044A</cdomain:urn>
+            <cdomain:selfLink kind="statisticalOperations#operation" href="https://datos.canarias.es/api/estadisticas/operations/latest/operations/C00044A"/>
+            <cdomain:name>
+                <cdomain:text xml:lang="es">Recopilación de Estadísticas sobre los Residuos</cdomain:text>
+            </cdomain:name>
+        </ns3:statisticalOperation>
+        <ns3:type>DATASET</ns3:type>
+        <ns3:creator kind="structuralResources#organisationUnit">
+            <cdomain:id>A05003423</cdomain:id>
+            <cdomain:urn>urn:sdmx:org.sdmx.infomodel.base.OrganisationUnit=ISTAC:GOBCAN(04.000).A05003423</cdomain:urn>
+            <cdomain:selfLink kind="structuralResources#organisationUnit" href="https://datos.canarias.es/api/estadisticas/structural-resources/latest/organisationunitschemes/ISTAC/GOBCAN/04.000/organisationunits/A05003423"/>
+            <cdomain:name>
+                <cdomain:text xml:lang="es">Instituto Canario de Estadística</cdomain:text>
+            </cdomain:name>
+        </ns3:creator>
+        <ns3:lastUpdate>2024-07-30T10:46:07.325+01:00</ns3:lastUpdate>
+        <ns3:publishers total="1">
+            <ns3:resource kind="structuralResources#organisationUnit">
+                <cdomain:id>A05003423</cdomain:id>
+                <cdomain:urn>urn:sdmx:org.sdmx.infomodel.base.OrganisationUnit=ISTAC:GOBCAN(04.000).A05003423</cdomain:urn>
+                <cdomain:selfLink kind="structuralResources#organisationUnit" href="https://datos.canarias.es/api/estadisticas/structural-resources/latest/organisationunitschemes/ISTAC/GOBCAN/04.000/organisationunits/A05003423"/>
+                <cdomain:name>
+                    <cdomain:text xml:lang="es">Instituto Canario de Estadística</cdomain:text>
+                </cdomain:name>
+            </ns3:resource>
+        </ns3:publishers>
+        <ns3:isPartOf total="1">
+            <ns3:resource kind="statisticalResources#collection">
+                <cdomain:id>C00044A_000001</cdomain:id>
+                <cdomain:urn>urn:siemac:org.siemac.metamac.infomodel.statisticalresources.Collection=ISTAC:C00044A_000001</cdomain:urn>
+                <cdomain:selfLink kind="statisticalResources#collection" href="https://datos.canarias.es/api/estadisticas/statistical-resources/v1.0/collections/ISTAC/C00044A_000001"/>
+                <cdomain:name>
+                    <cdomain:text xml:lang="es">Recopilación de Estadísticas sobre los Residuos / Series anuales. Canarias. 2001-2023</cdomain:text>
+                </cdomain:name>
+                <cdomain:visualizerHtmlLink>https://www3.gobiernodecanarias.org/istac/statistical-visualizer/visualizer/collection.html?resourceType=collection&amp;agencyId=ISTAC&amp;resourceId=C00044A_000001</cdomain:visualizerHtmlLink>
+            </ns3:resource>
+        </ns3:isPartOf>
+        <ns3:rightsHolder kind="structuralResources#agency">
+            <cdomain:id>ISTAC</cdomain:id>
+            <cdomain:nestedId>ISTAC</cdomain:nestedId>
+            <cdomain:urn>urn:sdmx:org.sdmx.infomodel.base.Agency=SDMX:AGENCIES(1.0).ISTAC</cdomain:urn>
+            <cdomain:selfLink kind="structuralResources#agency" href="https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/agencyschemes/SDMX/AGENCIES/1.0/agencies/ISTAC"/>
+            <cdomain:name>
+                <cdomain:text xml:lang="en">Canary Islands Statistics Institute (ISTAC)</cdomain:text>
+                <cdomain:text xml:lang="es">Instituto Canario de Estadística (ISTAC)</cdomain:text>
+            </cdomain:name>
+            <ns3:contacts total="1">
+                <ns3:contact>
+                    <ns3:name>
+                        <cdomain:text xml:lang="es">Instituto Canario de Estadística (ISTAC)</cdomain:text>
+                    </ns3:name>
+                    <ns3:telephones>928 89 92 60</ns3:telephones>
+                    <ns3:telephones>922 92 28 01</ns3:telephones>
+                    <ns3:faxes>928 89 92 75</ns3:faxes>
+                    <ns3:faxes>922 92 28 40</ns3:faxes>
+                    <ns3:urls>http://www.gobiernodecanarias.org/istac/</ns3:urls>
+                    <ns3:emails>consultas.istac@gobiernodecanarias.org</ns3:emails>
+                </ns3:contact>
+            </ns3:contacts>
+        </ns3:rightsHolder>
+        <ns3:copyrightDate>2024</ns3:copyrightDate>
+        <ns3:license>
+            <cdomain:text xml:lang="es">&lt;a href="http://www.gobiernodecanarias.org/istac/aviso_legal.html"&gt;Aviso Legal&lt;/a&gt;</cdomain:text>
+        </ns3:license>
+        <ns3:maintainer kind="structuralResources#agency">
+            <cdomain:id>ISTAC</cdomain:id>
+            <cdomain:nestedId>ISTAC</cdomain:nestedId>
+            <cdomain:urn>urn:sdmx:org.sdmx.infomodel.base.Agency=SDMX:AGENCIES(1.0).ISTAC</cdomain:urn>
+            <cdomain:selfLink kind="structuralResources#agency" href="https://datos.canarias.es/api/estadisticas/structural-resources/latest/agencyschemes/SDMX/AGENCIES/1.0/agencies/ISTAC"/>
+            <cdomain:name>
+                <cdomain:text xml:lang="en">Canary Islands Statistics Institute (ISTAC)</cdomain:text>
+                <cdomain:text xml:lang="es">Instituto Canario de Estadística (ISTAC)</cdomain:text>
+            </cdomain:name>
+        </ns3:maintainer>
+        <ns3:version>1.0</ns3:version>
+        <ns3:versionRationaleTypes total="1">
+            <ns3:versionRationaleType>MAJOR_NEW_RESOURCE</ns3:versionRationaleType>
+        </ns3:versionRationaleTypes>
+        <ns3:validFrom>2024-07-30T10:52:58.895+01:00</ns3:validFrom>
+        <ns3:nextVersion>NON_SCHEDULED_UPDATE</ns3:nextVersion>
+        <ns3:dataProviders total="1">
+            <ns3:resource kind="structuralResources#dataProvider">
+                <cdomain:id>AGE_INE</cdomain:id>
+                <cdomain:urn>urn:sdmx:org.sdmx.infomodel.base.DataProvider=ISTAC:DATA_PROVIDERS(01.000).AGE_INE</cdomain:urn>
+                <cdomain:selfLink kind="structuralResources#dataProvider" href="https://datos.canarias.es/api/estadisticas/structural-resources/latest/dataproviderschemes/ISTAC/DATA_PROVIDERS/01.000/dataproviders/AGE_INE"/>
+                <cdomain:name>
+                    <cdomain:text xml:lang="es">Instituto Nacional de Estadística</cdomain:text>
+                </cdomain:name>
+            </ns3:resource>
+        </ns3:dataProviders>
+        <ns3:geographicCoverages total="1">
+            <ns3:resource kind="structuralResources#code">
+                <cdomain:id>ES70</cdomain:id>
+                <cdomain:urn>urn:sdmx:org.sdmx.infomodel.codelist.Code=ISTAC:CL_AREA_ES(05.000).ES70</cdomain:urn>
+                <cdomain:selfLink kind="structuralResources#code" href="https://datos.canarias.es/api/estadisticas/structural-resources/latest/codelists/ISTAC/CL_AREA_ES/05.000/codes/ES70"/>
+                <cdomain:name>
+                    <cdomain:text xml:lang="en">Canary Islands</cdomain:text>
+                    <cdomain:text xml:lang="es">Canarias</cdomain:text>
+                </cdomain:name>
+            </ns3:resource>
+        </ns3:geographicCoverages>
+        <ns3:temporalCoverages total="18">
+            <cdomain:item>
+                <cdomain:id>2021</cdomain:id>
+                <cdomain:name>
+                    <cdomain:text xml:lang="es">2021</cdomain:text>
+                </cdomain:name>
+            </cdomain:item>
+            <cdomain:item>
+                <cdomain:id>2020</cdomain:id>
+                <cdomain:name>
+                    <cdomain:text xml:lang="es">2020</cdomain:text>
+                </cdomain:name>
+            </cdomain:item>
+            <cdomain:item>
+                <cdomain:id>2019</cdomain:id>
+                <cdomain:name>
+                    <cdomain:text xml:lang="es">2019</cdomain:text>
+                </cdomain:name>
+            </cdomain:item>
+            <cdomain:item>
+                <cdomain:id>2018</cdomain:id>
+                <cdomain:name>
+                    <cdomain:text xml:lang="es">2018</cdomain:text>
+                </cdomain:name>
+            </cdomain:item>
+            <cdomain:item>
+                <cdomain:id>2017</cdomain:id>
+                <cdomain:name>
+                    <cdomain:text xml:lang="es">2017</cdomain:text>
+                </cdomain:name>
+            </cdomain:item>
+            <cdomain:item>
+                <cdomain:id>2016</cdomain:id>
+                <cdomain:name>
+                    <cdomain:text xml:lang="es">2016</cdomain:text>
+                </cdomain:name>
+            </cdomain:item>
+            <cdomain:item>
+                <cdomain:id>2015</cdomain:id>
+                <cdomain:name>
+                    <cdomain:text xml:lang="es">2015</cdomain:text>
+                </cdomain:name>
+            </cdomain:item>
+            <cdomain:item>
+                <cdomain:id>2014</cdomain:id>
+                <cdomain:name>
+                    <cdomain:text xml:lang="es">2014</cdomain:text>
+                </cdomain:name>
+            </cdomain:item>
+            <cdomain:item>
+                <cdomain:id>2013</cdomain:id>
+                <cdomain:name>
+                    <cdomain:text xml:lang="es">2013</cdomain:text>
+                </cdomain:name>
+            </cdomain:item>
+            <cdomain:item>
+                <cdomain:id>2012</cdomain:id>
+                <cdomain:name>
+                    <cdomain:text xml:lang="es">2012</cdomain:text>
+                </cdomain:name>
+            </cdomain:item>
+            <cdomain:item>
+                <cdomain:id>2011</cdomain:id>
+                <cdomain:name>
+                    <cdomain:text xml:lang="es">2011</cdomain:text>
+                </cdomain:name>
+            </cdomain:item>
+            <cdomain:item>
+                <cdomain:id>2010</cdomain:id>
+                <cdomain:name>
+                    <cdomain:text xml:lang="es">2010</cdomain:text>
+                </cdomain:name>
+            </cdomain:item>
+            <cdomain:item>
+                <cdomain:id>2009</cdomain:id>
+                <cdomain:name>
+                    <cdomain:text xml:lang="es">2009</cdomain:text>
+                </cdomain:name>
+            </cdomain:item>
+            <cdomain:item>
+                <cdomain:id>2008</cdomain:id>
+                <cdomain:name>
+                    <cdomain:text xml:lang="es">2008</cdomain:text>
+                </cdomain:name>
+            </cdomain:item>
+            <cdomain:item>
+                <cdomain:id>2007</cdomain:id>
+                <cdomain:name>
+                    <cdomain:text xml:lang="es">2007</cdomain:text>
+                </cdomain:name>
+            </cdomain:item>
+            <cdomain:item>
+                <cdomain:id>2006</cdomain:id>
+                <cdomain:name>
+                    <cdomain:text xml:lang="es">2006</cdomain:text>
+                </cdomain:name>
+            </cdomain:item>
+            <cdomain:item>
+                <cdomain:id>2005</cdomain:id>
+                <cdomain:name>
+                    <cdomain:text xml:lang="es">2005</cdomain:text>
+                </cdomain:name>
+            </cdomain:item>
+            <cdomain:item>
+                <cdomain:id>2004</cdomain:id>
+                <cdomain:name>
+                    <cdomain:text xml:lang="es">2004</cdomain:text>
+                </cdomain:name>
+            </cdomain:item>
+        </ns3:temporalCoverages>
+        <ns3:measureCoverages total="1">
+            <ns3:resource kind="structuralResources#concept">
+                <cdomain:id>RESIDUOS</cdomain:id>
+                <cdomain:urn>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ISTAC:CSM_C00044A(01.000).RESIDUOS</cdomain:urn>
+                <cdomain:selfLink kind="structuralResources#concept" href="https://datos.canarias.es/api/estadisticas/structural-resources/latest/conceptschemes/ISTAC/CSM_C00044A/01.000/concepts/RESIDUOS"/>
+                <cdomain:name>
+                    <cdomain:text xml:lang="es">Residuo</cdomain:text>
+                </cdomain:name>
+            </ns3:resource>
+        </ns3:measureCoverages>
+        <ns3:geographicGranularities total="1">
+            <ns3:resource kind="structuralResources#code">
+                <cdomain:id>REGIONS</cdomain:id>
+                <cdomain:urn>urn:sdmx:org.sdmx.infomodel.codelist.Code=ISTAC:CL_GRANULARIDADES_GEOGRAFICAS(03.000).REGIONS</cdomain:urn>
+                <cdomain:selfLink kind="structuralResources#code" href="https://datos.canarias.es/api/estadisticas/structural-resources/latest/codelists/ISTAC/CL_GRANULARIDADES_GEOGRAFICAS/03.000/codes/REGIONS"/>
+                <cdomain:name>
+                    <cdomain:text xml:lang="ca">Comunitats autònomes</cdomain:text>
+                    <cdomain:text xml:lang="en">Regions</cdomain:text>
+                    <cdomain:text xml:lang="es">Comunidades autónomas</cdomain:text>
+                </cdomain:name>
+            </ns3:resource>
+        </ns3:geographicGranularities>
+        <ns3:temporalGranularities total="1">
+            <ns3:resource kind="structuralResources#code">
+                <cdomain:id>A</cdomain:id>
+                <cdomain:urn>urn:sdmx:org.sdmx.infomodel.codelist.Code=ISTAC:CL_FREQ(01.003).A</cdomain:urn>
+                <cdomain:selfLink kind="structuralResources#code" href="https://datos.canarias.es/api/estadisticas/structural-resources/latest/codelists/ISTAC/CL_FREQ/01.003/codes/A"/>
+                <cdomain:name>
+                    <cdomain:text xml:lang="ca">Anual</cdomain:text>
+                    <cdomain:text xml:lang="es">Anual</cdomain:text>
+                    <cdomain:text xml:lang="en">Annual</cdomain:text>
+                </cdomain:name>
+            </ns3:resource>
+        </ns3:temporalGranularities>
+        <ns3:dateStart>
+            <cdomain:text xml:lang="en">2004</cdomain:text>
+            <cdomain:text xml:lang="es">2004</cdomain:text>
+            <cdomain:text xml:lang="ca">2004</cdomain:text>
+        </ns3:dateStart>
+        <ns3:dateEnd>
+            <cdomain:text xml:lang="en">2021</cdomain:text>
+            <cdomain:text xml:lang="es">2021</cdomain:text>
+            <cdomain:text xml:lang="ca">2021</cdomain:text>
+        </ns3:dateEnd>
+        <ns3:subjectAreas total="3">
+            <ns3:resource kind="structuralResources#category">
+                <cdomain:id>010</cdomain:id>
+                <cdomain:nestedId>010</cdomain:nestedId>
+                <cdomain:urn>urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=ISTAC:TEMAS_CANARIAS(01.000).010</cdomain:urn>
+                <cdomain:selfLink kind="structuralResources#category" href="https://datos.canarias.es/api/estadisticas/structural-resources/latest/categoryschemes/ISTAC/TEMAS_CANARIAS/01.000/categories/010"/>
+                <cdomain:name>
+                    <cdomain:text xml:lang="en">Territory and environment</cdomain:text>
+                    <cdomain:text xml:lang="es">Territorio y medioambiente</cdomain:text>
+                </cdomain:name>
+            </ns3:resource>
+            <ns3:resource kind="structuralResources#category">
+                <cdomain:id>010_020</cdomain:id>
+                <cdomain:nestedId>010.010_020</cdomain:nestedId>
+                <cdomain:urn>urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=ISTAC:TEMAS_CANARIAS(01.000).010.010_020</cdomain:urn>
+                <cdomain:selfLink kind="structuralResources#category" href="https://datos.canarias.es/api/estadisticas/structural-resources/latest/categoryschemes/ISTAC/TEMAS_CANARIAS/01.000/categories/010.010_020"/>
+                <cdomain:name>
+                    <cdomain:text xml:lang="es">Medio ambiente</cdomain:text>
+                    <cdomain:text xml:lang="en">Environment</cdomain:text>
+                </cdomain:name>
+            </ns3:resource>
+            <ns3:resource kind="structuralResources#category">
+                <cdomain:id>010_020_050</cdomain:id>
+                <cdomain:nestedId>010.010_020.010_020_050</cdomain:nestedId>
+                <cdomain:urn>urn:sdmx:org.sdmx.infomodel.categoryscheme.Category=ISTAC:TEMAS_CANARIAS(01.000).010.010_020.010_020_050</cdomain:urn>
+                <cdomain:selfLink kind="structuralResources#category" href="https://datos.canarias.es/api/estadisticas/structural-resources/latest/categoryschemes/ISTAC/TEMAS_CANARIAS/01.000/categories/010.010_020.010_020_050"/>
+                <cdomain:name>
+                    <cdomain:text xml:lang="es">Residuos</cdomain:text>
+                    <cdomain:text xml:lang="en">Waste</cdomain:text>
+                </cdomain:name>
+            </ns3:resource>
+        </ns3:subjectAreas>
+        <ns3:relatedDsd kind="structuralResources#dataStructure">
+            <cdomain:id>DSD_C00044A_00001</cdomain:id>
+            <cdomain:urn>urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=ISTAC:DSD_C00044A_00001(01.000)</cdomain:urn>
+            <cdomain:selfLink kind="structuralResources#dataStructure" href="https://datos.canarias.es/api/estadisticas/structural-resources/latest/datastructures/ISTAC/DSD_C00044A_00001/01.000"/>
+            <cdomain:name>
+                <cdomain:text xml:lang="es">Recogida urbana de residuos. Indicadores, territorios y periodos</cdomain:text>
+            </cdomain:name>
+            <ns3:heading total="2">
+                <ns3:dimensionId>TIME_PERIOD</ns3:dimensionId>
+                <ns3:dimensionId>TERRITORIO</ns3:dimensionId>
+            </ns3:heading>
+            <ns3:stub total="2">
+                <ns3:dimensionId>MEDIDAS</ns3:dimensionId>
+                <ns3:dimensionId>TIPO_RESIDUO</ns3:dimensionId>
+            </ns3:stub>
+            <ns3:autoOpen>true</ns3:autoOpen>
+            <ns3:showNullValuesByDefault>true</ns3:showNullValuesByDefault>
+            <ns3:showZeroValuesByDefault>true</ns3:showZeroValuesByDefault>
+            <ns3:showDecimals>0</ns3:showDecimals>
+        </ns3:relatedDsd>
+        <ns3:dimensions total="4">
+            <ns3:dimension>
+                <ns3:id>TERRITORIO</ns3:id>
+                <ns3:name>
+                    <cdomain:text xml:lang="es">Territorio</cdomain:text>
+                    <cdomain:text xml:lang="en">Reference area</cdomain:text>
+                </ns3:name>
+                <ns3:type>GEOGRAPHIC_DIMENSION</ns3:type>
+                <ns3:dimensionValues xsi:type="ns3:EnumeratedDimensionValues" total="1">
+                    <ns3:value kind="structuralResources#code">
+                        <cdomain:id>ES70</cdomain:id>
+                        <cdomain:urn>urn:sdmx:org.sdmx.infomodel.codelist.Code=ISTAC:CL_AREA_ES(05.000).ES70</cdomain:urn>
+                        <cdomain:selfLink kind="structuralResources#code" href="https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_AREA_ES/05.000/codes/ES70"/>
+                        <cdomain:name>
+                            <cdomain:text xml:lang="en">Canary Islands</cdomain:text>
+                            <cdomain:text xml:lang="es">Canarias</cdomain:text>
+                        </cdomain:name>
+                        <ns3:variableElement kind="structuralResources#variableElement">
+                            <cdomain:id>CCAA_CANARIAS</cdomain:id>
+                            <cdomain:urn>urn:siemac:org.siemac.metamac.infomodel.structuralresources.VariableElement=VR_TERRITORIO.CCAA_CANARIAS</cdomain:urn>
+                            <cdomain:selfLink kind="structuralResources#variableElement" href="https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/variables/VR_TERRITORIO/variableelements/CCAA_CANARIAS"/>
+                            <cdomain:name>
+<cdomain:text xml:lang="en">Canary Islands</cdomain:text>
+<cdomain:text xml:lang="es">Canarias</cdomain:text>
+                            </cdomain:name>
+                        </ns3:variableElement>
+                        <ns3:geographicGranularity kind="structuralResources#code">
+                            <cdomain:id>REGIONS</cdomain:id>
+                            <cdomain:urn>urn:sdmx:org.sdmx.infomodel.codelist.Code=ISTAC:CL_GRANULARIDADES_GEOGRAFICAS(01.000).REGIONS</cdomain:urn>
+                            <cdomain:selfLink kind="structuralResources#code" href="https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_GRANULARIDADES_GEOGRAFICAS/01.000/codes/REGIONS"/>
+                            <cdomain:name>
+<cdomain:text xml:lang="en">Regions</cdomain:text>
+<cdomain:text xml:lang="es">Comunidades autónomas</cdomain:text>
+                            </cdomain:name>
+                        </ns3:geographicGranularity>
+                        <ns3:open>true</ns3:open>
+                    </ns3:value>
+                </ns3:dimensionValues>
+                <ns3:pluralName>
+                    <cdomain:text xml:lang="en">Reference areas</cdomain:text>
+                    <cdomain:text xml:lang="es">Territorios</cdomain:text>
+                </ns3:pluralName>
+            </ns3:dimension>
+            <ns3:dimension>
+                <ns3:id>TIME_PERIOD</ns3:id>
+                <ns3:name>
+                    <cdomain:text xml:lang="en">Time period</cdomain:text>
+                    <cdomain:text xml:lang="es">Periodo</cdomain:text>
+                </ns3:name>
+                <ns3:type>TIME_DIMENSION</ns3:type>
+                <ns3:dimensionValues xsi:type="ns3:NonEnumeratedDimensionValues" total="18">
+                    <ns3:value>
+                        <ns3:id>2021</ns3:id>
+                        <ns3:name>
+                            <cdomain:text xml:lang="en">2021</cdomain:text>
+                            <cdomain:text xml:lang="es">2021</cdomain:text>
+                            <cdomain:text xml:lang="ca">2021</cdomain:text>
+                        </ns3:name>
+                        <ns3:temporalGranularity>YEARLY</ns3:temporalGranularity>
+                    </ns3:value>
+                    <ns3:value>
+                        <ns3:id>2020</ns3:id>
+                        <ns3:name>
+                            <cdomain:text xml:lang="en">2020</cdomain:text>
+                            <cdomain:text xml:lang="es">2020</cdomain:text>
+                            <cdomain:text xml:lang="ca">2020</cdomain:text>
+                        </ns3:name>
+                        <ns3:temporalGranularity>YEARLY</ns3:temporalGranularity>
+                    </ns3:value>
+                    <ns3:value>
+                        <ns3:id>2019</ns3:id>
+                        <ns3:name>
+                            <cdomain:text xml:lang="en">2019</cdomain:text>
+                            <cdomain:text xml:lang="es">2019</cdomain:text>
+                            <cdomain:text xml:lang="ca">2019</cdomain:text>
+                        </ns3:name>
+                        <ns3:temporalGranularity>YEARLY</ns3:temporalGranularity>
+                    </ns3:value>
+                    <ns3:value>
+                        <ns3:id>2018</ns3:id>
+                        <ns3:name>
+                            <cdomain:text xml:lang="en">2018</cdomain:text>
+                            <cdomain:text xml:lang="es">2018</cdomain:text>
+                            <cdomain:text xml:lang="ca">2018</cdomain:text>
+                        </ns3:name>
+                        <ns3:temporalGranularity>YEARLY</ns3:temporalGranularity>
+                    </ns3:value>
+                    <ns3:value>
+                        <ns3:id>2017</ns3:id>
+                        <ns3:name>
+                            <cdomain:text xml:lang="en">2017</cdomain:text>
+                            <cdomain:text xml:lang="es">2017</cdomain:text>
+                            <cdomain:text xml:lang="ca">2017</cdomain:text>
+                        </ns3:name>
+                        <ns3:temporalGranularity>YEARLY</ns3:temporalGranularity>
+                    </ns3:value>
+                    <ns3:value>
+                        <ns3:id>2016</ns3:id>
+                        <ns3:name>
+                            <cdomain:text xml:lang="en">2016</cdomain:text>
+                            <cdomain:text xml:lang="es">2016</cdomain:text>
+                            <cdomain:text xml:lang="ca">2016</cdomain:text>
+                        </ns3:name>
+                        <ns3:temporalGranularity>YEARLY</ns3:temporalGranularity>
+                    </ns3:value>
+                    <ns3:value>
+                        <ns3:id>2015</ns3:id>
+                        <ns3:name>
+                            <cdomain:text xml:lang="en">2015</cdomain:text>
+                            <cdomain:text xml:lang="es">2015</cdomain:text>
+                            <cdomain:text xml:lang="ca">2015</cdomain:text>
+                        </ns3:name>
+                        <ns3:temporalGranularity>YEARLY</ns3:temporalGranularity>
+                    </ns3:value>
+                    <ns3:value>
+                        <ns3:id>2014</ns3:id>
+                        <ns3:name>
+                            <cdomain:text xml:lang="en">2014</cdomain:text>
+                            <cdomain:text xml:lang="es">2014</cdomain:text>
+                            <cdomain:text xml:lang="ca">2014</cdomain:text>
+                        </ns3:name>
+                        <ns3:temporalGranularity>YEARLY</ns3:temporalGranularity>
+                    </ns3:value>
+                    <ns3:value>
+                        <ns3:id>2013</ns3:id>
+                        <ns3:name>
+                            <cdomain:text xml:lang="en">2013</cdomain:text>
+                            <cdomain:text xml:lang="es">2013</cdomain:text>
+                            <cdomain:text xml:lang="ca">2013</cdomain:text>
+                        </ns3:name>
+                        <ns3:temporalGranularity>YEARLY</ns3:temporalGranularity>
+                    </ns3:value>
+                    <ns3:value>
+                        <ns3:id>2012</ns3:id>
+                        <ns3:name>
+                            <cdomain:text xml:lang="en">2012</cdomain:text>
+                            <cdomain:text xml:lang="es">2012</cdomain:text>
+                            <cdomain:text xml:lang="ca">2012</cdomain:text>
+                        </ns3:name>
+                        <ns3:temporalGranularity>YEARLY</ns3:temporalGranularity>
+                    </ns3:value>
+                    <ns3:value>
+                        <ns3:id>2011</ns3:id>
+                        <ns3:name>
+                            <cdomain:text xml:lang="en">2011</cdomain:text>
+                            <cdomain:text xml:lang="es">2011</cdomain:text>
+                            <cdomain:text xml:lang="ca">2011</cdomain:text>
+                        </ns3:name>
+                        <ns3:temporalGranularity>YEARLY</ns3:temporalGranularity>
+                    </ns3:value>
+                    <ns3:value>
+                        <ns3:id>2010</ns3:id>
+                        <ns3:name>
+                            <cdomain:text xml:lang="en">2010</cdomain:text>
+                            <cdomain:text xml:lang="es">2010</cdomain:text>
+                            <cdomain:text xml:lang="ca">2010</cdomain:text>
+                        </ns3:name>
+                        <ns3:temporalGranularity>YEARLY</ns3:temporalGranularity>
+                    </ns3:value>
+                    <ns3:value>
+                        <ns3:id>2009</ns3:id>
+                        <ns3:name>
+                            <cdomain:text xml:lang="en">2009</cdomain:text>
+                            <cdomain:text xml:lang="es">2009</cdomain:text>
+                            <cdomain:text xml:lang="ca">2009</cdomain:text>
+                        </ns3:name>
+                        <ns3:temporalGranularity>YEARLY</ns3:temporalGranularity>
+                    </ns3:value>
+                    <ns3:value>
+                        <ns3:id>2008</ns3:id>
+                        <ns3:name>
+                            <cdomain:text xml:lang="en">2008</cdomain:text>
+                            <cdomain:text xml:lang="es">2008</cdomain:text>
+                            <cdomain:text xml:lang="ca">2008</cdomain:text>
+                        </ns3:name>
+                        <ns3:temporalGranularity>YEARLY</ns3:temporalGranularity>
+                    </ns3:value>
+                    <ns3:value>
+                        <ns3:id>2007</ns3:id>
+                        <ns3:name>
+                            <cdomain:text xml:lang="en">2007</cdomain:text>
+                            <cdomain:text xml:lang="es">2007</cdomain:text>
+                            <cdomain:text xml:lang="ca">2007</cdomain:text>
+                        </ns3:name>
+                        <ns3:temporalGranularity>YEARLY</ns3:temporalGranularity>
+                    </ns3:value>
+                    <ns3:value>
+                        <ns3:id>2006</ns3:id>
+                        <ns3:name>
+                            <cdomain:text xml:lang="en">2006</cdomain:text>
+                            <cdomain:text xml:lang="es">2006</cdomain:text>
+                            <cdomain:text xml:lang="ca">2006</cdomain:text>
+                        </ns3:name>
+                        <ns3:temporalGranularity>YEARLY</ns3:temporalGranularity>
+                    </ns3:value>
+                    <ns3:value>
+                        <ns3:id>2005</ns3:id>
+                        <ns3:name>
+                            <cdomain:text xml:lang="en">2005</cdomain:text>
+                            <cdomain:text xml:lang="es">2005</cdomain:text>
+                            <cdomain:text xml:lang="ca">2005</cdomain:text>
+                        </ns3:name>
+                        <ns3:temporalGranularity>YEARLY</ns3:temporalGranularity>
+                    </ns3:value>
+                    <ns3:value>
+                        <ns3:id>2004</ns3:id>
+                        <ns3:name>
+                            <cdomain:text xml:lang="en">2004</cdomain:text>
+                            <cdomain:text xml:lang="es">2004</cdomain:text>
+                            <cdomain:text xml:lang="ca">2004</cdomain:text>
+                        </ns3:name>
+                        <ns3:temporalGranularity>YEARLY</ns3:temporalGranularity>
+                    </ns3:value>
+                </ns3:dimensionValues>
+                <ns3:pluralName>
+                    <cdomain:text xml:lang="es">Periodos</cdomain:text>
+                    <cdomain:text xml:lang="en">Time periods</cdomain:text>
+                </ns3:pluralName>
+            </ns3:dimension>
+            <ns3:dimension>
+                <ns3:id>TIPO_RESIDUO</ns3:id>
+                <ns3:name>
+                    <cdomain:text xml:lang="es">Tipo de residuo</cdomain:text>
+                </ns3:name>
+                <ns3:type>DIMENSION</ns3:type>
+                <ns3:dimensionValues xsi:type="ns3:EnumeratedDimensionValues" total="23">
+                    <ns3:value kind="structuralResources#code">
+                        <cdomain:id>_T</cdomain:id>
+                        <cdomain:urn>urn:sdmx:org.sdmx.infomodel.codelist.Code=ISTAC:CL_CER(01.000)._T</cdomain:urn>
+                        <cdomain:selfLink kind="structuralResources#code" href="https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_CER/01.000/codes/_T"/>
+                        <cdomain:name>
+                            <cdomain:text xml:lang="en">Total</cdomain:text>
+                            <cdomain:text xml:lang="es">Total</cdomain:text>
+                        </cdomain:name>
+                        <ns3:open>true</ns3:open>
+                    </ns3:value>
+                    <ns3:value kind="structuralResources#code">
+                        <cdomain:id>_S1</cdomain:id>
+                        <cdomain:urn>urn:sdmx:org.sdmx.infomodel.codelist.Code=ISTAC:CL_CER(01.000)._S1</cdomain:urn>
+                        <cdomain:selfLink kind="structuralResources#code" href="https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_CER/01.000/codes/_S1"/>
+                        <cdomain:name>
+                            <cdomain:text xml:lang="es">Residos mezclados</cdomain:text>
+                        </cdomain:name>
+                        <ns3:open>true</ns3:open>
+                    </ns3:value>
+                    <ns3:value kind="structuralResources#code">
+                        <cdomain:id>101_L1</cdomain:id>
+                        <cdomain:urn>urn:sdmx:org.sdmx.infomodel.codelist.Code=ISTAC:CL_CER(01.000).101_L1</cdomain:urn>
+                        <cdomain:selfLink kind="structuralResources#code" href="https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_CER/01.000/codes/101_L1"/>
+                        <cdomain:name>
+                            <cdomain:text xml:lang="es">10.1.1 Residuos domésticos y similares (domésticos y vías públicas)</cdomain:text>
+                        </cdomain:name>
+                        <ns3:open>true</ns3:open>
+                    </ns3:value>
+                    <ns3:value kind="structuralResources#code">
+                        <cdomain:id>101_L2</cdomain:id>
+                        <cdomain:urn>urn:sdmx:org.sdmx.infomodel.codelist.Code=ISTAC:CL_CER(01.000).101_L2</cdomain:urn>
+                        <cdomain:selfLink kind="structuralResources#code" href="https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_CER/01.000/codes/101_L2"/>
+                        <cdomain:name>
+                            <cdomain:text xml:lang="es">10.1.2 Residuos domésticos voluminosos mezclados (enseres domésticos)</cdomain:text>
+                        </cdomain:name>
+                        <ns3:open>true</ns3:open>
+                    </ns3:value>
+                    <ns3:value kind="structuralResources#code">
+                        <cdomain:id>_S2</cdomain:id>
+                        <cdomain:urn>urn:sdmx:org.sdmx.infomodel.codelist.Code=ISTAC:CL_CER(01.000)._S2</cdomain:urn>
+                        <cdomain:selfLink kind="structuralResources#code" href="https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_CER/01.000/codes/_S2"/>
+                        <cdomain:name>
+                            <cdomain:text xml:lang="es">Residuos de recogida separada</cdomain:text>
+                        </cdomain:name>
+                        <ns3:open>true</ns3:open>
+                    </ns3:value>
+                    <ns3:value kind="structuralResources#code">
+                        <cdomain:id>013</cdomain:id>
+                        <cdomain:urn>urn:sdmx:org.sdmx.infomodel.codelist.Code=ISTAC:CL_CER(01.000).013</cdomain:urn>
+                        <cdomain:selfLink kind="structuralResources#code" href="https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_CER/01.000/codes/013"/>
+                        <cdomain:name>
+                            <cdomain:text xml:lang="es">01.3 Aceites usados</cdomain:text>
+                        </cdomain:name>
+                        <ns3:open>true</ns3:open>
+                    </ns3:value>
+                    <ns3:value kind="structuralResources#code">
+                        <cdomain:id>0212</cdomain:id>
+                        <cdomain:urn>urn:sdmx:org.sdmx.infomodel.codelist.Code=ISTAC:CL_CER(01.000).0212</cdomain:urn>
+                        <cdomain:selfLink kind="structuralResources#code" href="https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_CER/01.000/codes/0212"/>
+                        <cdomain:name>
+                            <cdomain:text xml:lang="es">02.12 Medicamentos no utilizados</cdomain:text>
+                        </cdomain:name>
+                        <ns3:open>true</ns3:open>
+                    </ns3:value>
+                    <ns3:value kind="structuralResources#code">
+                        <cdomain:id>05</cdomain:id>
+                        <cdomain:urn>urn:sdmx:org.sdmx.infomodel.codelist.Code=ISTAC:CL_CER(01.000).05</cdomain:urn>
+                        <cdomain:selfLink kind="structuralResources#code" href="https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_CER/01.000/codes/05"/>
+                        <cdomain:name>
+                            <cdomain:text xml:lang="es">05 Residuos sanitarios y biológicos</cdomain:text>
+                        </cdomain:name>
+                        <ns3:open>true</ns3:open>
+                    </ns3:value>
+                    <ns3:value kind="structuralResources#code">
+                        <cdomain:id>06</cdomain:id>
+                        <cdomain:urn>urn:sdmx:org.sdmx.infomodel.codelist.Code=ISTAC:CL_CER(01.000).06</cdomain:urn>
+                        <cdomain:selfLink kind="structuralResources#code" href="https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_CER/01.000/codes/06"/>
+                        <cdomain:name>
+                            <cdomain:text xml:lang="es">06 Residuos metálicos</cdomain:text>
+                        </cdomain:name>
+                        <ns3:open>true</ns3:open>
+                    </ns3:value>
+                    <ns3:value kind="structuralResources#code">
+                        <cdomain:id>071</cdomain:id>
+                        <cdomain:urn>urn:sdmx:org.sdmx.infomodel.codelist.Code=ISTAC:CL_CER(01.000).071</cdomain:urn>
+                        <cdomain:selfLink kind="structuralResources#code" href="https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_CER/01.000/codes/071"/>
+                        <cdomain:name>
+                            <cdomain:text xml:lang="es">07.1 Residuos de vidrio</cdomain:text>
+                        </cdomain:name>
+                        <ns3:open>true</ns3:open>
+                    </ns3:value>
+                    <ns3:value kind="structuralResources#code">
+                        <cdomain:id>072</cdomain:id>
+                        <cdomain:urn>urn:sdmx:org.sdmx.infomodel.codelist.Code=ISTAC:CL_CER(01.000).072</cdomain:urn>
+                        <cdomain:selfLink kind="structuralResources#code" href="https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_CER/01.000/codes/072"/>
+                        <cdomain:name>
+                            <cdomain:text xml:lang="es">07.2 Residuos de papel y cartón</cdomain:text>
+                        </cdomain:name>
+                        <ns3:open>true</ns3:open>
+                    </ns3:value>
+                    <ns3:value kind="structuralResources#code">
+                        <cdomain:id>0731</cdomain:id>
+                        <cdomain:urn>urn:sdmx:org.sdmx.infomodel.codelist.Code=ISTAC:CL_CER(01.000).0731</cdomain:urn>
+                        <cdomain:selfLink kind="structuralResources#code" href="https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_CER/01.000/codes/0731"/>
+                        <cdomain:name>
+                            <cdomain:text xml:lang="es">07.31 Neumáticos usados</cdomain:text>
+                        </cdomain:name>
+                        <ns3:open>true</ns3:open>
+                    </ns3:value>
+                    <ns3:value kind="structuralResources#code">
+                        <cdomain:id>074</cdomain:id>
+                        <cdomain:urn>urn:sdmx:org.sdmx.infomodel.codelist.Code=ISTAC:CL_CER(01.000).074</cdomain:urn>
+                        <cdomain:selfLink kind="structuralResources#code" href="https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_CER/01.000/codes/074"/>
+                        <cdomain:name>
+                            <cdomain:text xml:lang="es">07.4 Residuos plásticos</cdomain:text>
+                        </cdomain:name>
+                        <ns3:open>true</ns3:open>
+                    </ns3:value>
+                    <ns3:value kind="structuralResources#code">
+                        <cdomain:id>075</cdomain:id>
+                        <cdomain:urn>urn:sdmx:org.sdmx.infomodel.codelist.Code=ISTAC:CL_CER(01.000).075</cdomain:urn>
+                        <cdomain:selfLink kind="structuralResources#code" href="https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_CER/01.000/codes/075"/>
+                        <cdomain:name>
+                            <cdomain:text xml:lang="es">07.5 Residuos de madera</cdomain:text>
+                        </cdomain:name>
+                        <ns3:open>true</ns3:open>
+                    </ns3:value>
+                    <ns3:value kind="structuralResources#code">
+                        <cdomain:id>076</cdomain:id>
+                        <cdomain:urn>urn:sdmx:org.sdmx.infomodel.codelist.Code=ISTAC:CL_CER(01.000).076</cdomain:urn>
+                        <cdomain:selfLink kind="structuralResources#code" href="https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_CER/01.000/codes/076"/>
+                        <cdomain:name>
+                            <cdomain:text xml:lang="es">07.6 Residuos textiles</cdomain:text>
+                        </cdomain:name>
+                        <ns3:open>true</ns3:open>
+                    </ns3:value>
+                    <ns3:value kind="structuralResources#code">
+                        <cdomain:id>081</cdomain:id>
+                        <cdomain:urn>urn:sdmx:org.sdmx.infomodel.codelist.Code=ISTAC:CL_CER(01.000).081</cdomain:urn>
+                        <cdomain:selfLink kind="structuralResources#code" href="https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_CER/01.000/codes/081"/>
+                        <cdomain:name>
+                            <cdomain:text xml:lang="es">08.1 Vehículos desechados</cdomain:text>
+                        </cdomain:name>
+                        <ns3:open>true</ns3:open>
+                    </ns3:value>
+                    <ns3:value kind="structuralResources#code">
+                        <cdomain:id>082_0843</cdomain:id>
+                        <cdomain:urn>urn:sdmx:org.sdmx.infomodel.codelist.Code=ISTAC:CL_CER(01.000).082_0843</cdomain:urn>
+                        <cdomain:selfLink kind="structuralResources#code" href="https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_CER/01.000/codes/082_0843"/>
+                        <cdomain:name>
+                            <cdomain:text xml:lang="es">08.2 y 08.43 Equipos eléctricos desechados y Componentes de equipos eléctrónicos desechados</cdomain:text>
+                        </cdomain:name>
+                        <ns3:open>true</ns3:open>
+                    </ns3:value>
+                    <ns3:value kind="structuralResources#code">
+                        <cdomain:id>0841</cdomain:id>
+                        <cdomain:urn>urn:sdmx:org.sdmx.infomodel.codelist.Code=ISTAC:CL_CER(01.000).0841</cdomain:urn>
+                        <cdomain:selfLink kind="structuralResources#code" href="https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_CER/01.000/codes/0841"/>
+                        <cdomain:name>
+                            <cdomain:text xml:lang="es">08.41 Residuos de pilas y acumuladores</cdomain:text>
+                        </cdomain:name>
+                        <ns3:open>true</ns3:open>
+                    </ns3:value>
+                    <ns3:value kind="structuralResources#code">
+                        <cdomain:id>09</cdomain:id>
+                        <cdomain:urn>urn:sdmx:org.sdmx.infomodel.codelist.Code=ISTAC:CL_CER(01.000).09</cdomain:urn>
+                        <cdomain:selfLink kind="structuralResources#code" href="https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_CER/01.000/codes/09"/>
+                        <cdomain:name>
+                            <cdomain:text xml:lang="es">09 Residuos animales y vegetales</cdomain:text>
+                        </cdomain:name>
+                        <ns3:open>true</ns3:open>
+                    </ns3:value>
+                    <ns3:value kind="structuralResources#code">
+                        <cdomain:id>1021</cdomain:id>
+                        <cdomain:urn>urn:sdmx:org.sdmx.infomodel.codelist.Code=ISTAC:CL_CER(01.000).1021</cdomain:urn>
+                        <cdomain:selfLink kind="structuralResources#code" href="https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_CER/01.000/codes/1021"/>
+                        <cdomain:name>
+                            <cdomain:text xml:lang="es">10.21 Embalajes mezclados</cdomain:text>
+                        </cdomain:name>
+                        <ns3:open>true</ns3:open>
+                    </ns3:value>
+                    <ns3:value kind="structuralResources#code">
+                        <cdomain:id>11</cdomain:id>
+                        <cdomain:urn>urn:sdmx:org.sdmx.infomodel.codelist.Code=ISTAC:CL_CER(01.000).11</cdomain:urn>
+                        <cdomain:selfLink kind="structuralResources#code" href="https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_CER/01.000/codes/11"/>
+                        <cdomain:name>
+                            <cdomain:text xml:lang="es">11 Lodos comunes</cdomain:text>
+                        </cdomain:name>
+                        <ns3:open>true</ns3:open>
+                    </ns3:value>
+                    <ns3:value kind="structuralResources#code">
+                        <cdomain:id>121</cdomain:id>
+                        <cdomain:urn>urn:sdmx:org.sdmx.infomodel.codelist.Code=ISTAC:CL_CER(01.000).121</cdomain:urn>
+                        <cdomain:selfLink kind="structuralResources#code" href="https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_CER/01.000/codes/121"/>
+                        <cdomain:name>
+                            <cdomain:text xml:lang="es">12.1 Residuos de construcción y demolición</cdomain:text>
+                        </cdomain:name>
+                        <ns3:open>true</ns3:open>
+                    </ns3:value>
+                    <ns3:value kind="structuralResources#code">
+                        <cdomain:id>_O</cdomain:id>
+                        <cdomain:urn>urn:sdmx:org.sdmx.infomodel.codelist.Code=ISTAC:CL_CER(01.000)._O</cdomain:urn>
+                        <cdomain:selfLink kind="structuralResources#code" href="https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_CER/01.000/codes/_O"/>
+                        <cdomain:name>
+                            <cdomain:text xml:lang="en">Other</cdomain:text>
+                            <cdomain:text xml:lang="es">Otros</cdomain:text>
+                        </cdomain:name>
+                        <ns3:open>true</ns3:open>
+                    </ns3:value>
+                </ns3:dimensionValues>
+                <ns3:pluralName>
+                    <cdomain:text xml:lang="es">Tipos de residuos</cdomain:text>
+                </ns3:pluralName>
+            </ns3:dimension>
+            <ns3:dimension>
+                <ns3:id>MEDIDAS</ns3:id>
+                <ns3:name>
+                    <cdomain:text xml:lang="es">Indicador</cdomain:text>
+                    <cdomain:text xml:lang="en">Indicator</cdomain:text>
+                </ns3:name>
+                <ns3:type>MEASURE_DIMENSION</ns3:type>
+                <ns3:dimensionValues xsi:type="ns3:EnumeratedDimensionValues" total="1">
+                    <ns3:value kind="structuralResources#concept">
+                        <cdomain:id>RESIDUOS</cdomain:id>
+                        <cdomain:urn>urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ISTAC:CSM_C00044A(01.000).RESIDUOS</cdomain:urn>
+                        <cdomain:selfLink kind="structuralResources#concept" href="https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/conceptschemes/ISTAC/CSM_C00044A/01.000/concepts/RESIDUOS"/>
+                        <cdomain:name>
+                            <cdomain:text xml:lang="es">Residuo</cdomain:text>
+                        </cdomain:name>
+                    </ns3:value>
+                </ns3:dimensionValues>
+                <ns3:pluralName>
+                    <cdomain:text xml:lang="es">Indicadores</cdomain:text>
+                    <cdomain:text xml:lang="en">Indicators</cdomain:text>
+                </ns3:pluralName>
+            </ns3:dimension>
+        </ns3:dimensions>
+        <ns3:attributes total="7">
+            <ns3:attribute>
+                <ns3:id>NOTAS_OBSERVACION</ns3:id>
+                <ns3:name>
+                    <cdomain:text xml:lang="en">Annotation</cdomain:text>
+                    <cdomain:text xml:lang="es">Anotación</cdomain:text>
+                </ns3:name>
+                <ns3:attachmentLevel>PRIMARY_MEASURE</ns3:attachmentLevel>
+                <ns3:type>OTHER</ns3:type>
+            </ns3:attribute>
+            <ns3:attribute>
+                <ns3:id>ESTADO_OBSERVACION</ns3:id>
+                <ns3:name>
+                    <cdomain:text xml:lang="en">Observation status</cdomain:text>
+                    <cdomain:text xml:lang="es">Estado de la observación</cdomain:text>
+                </ns3:name>
+                <ns3:attachmentLevel>PRIMARY_MEASURE</ns3:attachmentLevel>
+                <ns3:attributeValues xsi:type="ns3:EnumeratedAttributeValues" total="1">
+                    <ns3:value kind="structuralResources#code">
+                        <cdomain:id>M</cdomain:id>
+                        <cdomain:urn>urn:sdmx:org.sdmx.infomodel.codelist.Code=SDMX:CL_OBS_STATUS(2.1).M</cdomain:urn>
+                        <cdomain:selfLink kind="structuralResources#code" href="https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/SDMX/CL_OBS_STATUS/2.1/codes/M"/>
+                        <cdomain:name>
+                            <cdomain:text xml:lang="en">Missing value; data cannot exist</cdomain:text>
+                            <cdomain:text xml:lang="es">Valor no disponible; el dato no existe</cdomain:text>
+                        </cdomain:name>
+                    </ns3:value>
+                </ns3:attributeValues>
+                <ns3:type>OTHER</ns3:type>
+            </ns3:attribute>
+            <ns3:attribute>
+                <ns3:id>NOTAS_DATASET</ns3:id>
+                <ns3:name>
+                    <cdomain:text xml:lang="en">Annotation</cdomain:text>
+                    <cdomain:text xml:lang="es">Anotación</cdomain:text>
+                </ns3:name>
+                <ns3:attachmentLevel>DATASET</ns3:attachmentLevel>
+                <ns3:type>OTHER</ns3:type>
+            </ns3:attribute>
+            <ns3:attribute>
+                <ns3:id>CONFIDENCIALIDAD_OBSERVACION</ns3:id>
+                <ns3:name>
+                    <cdomain:text xml:lang="es">Confidencialidad - estado</cdomain:text>
+                    <cdomain:text xml:lang="en">Confidentiality - status</cdomain:text>
+                </ns3:name>
+                <ns3:attachmentLevel>PRIMARY_MEASURE</ns3:attachmentLevel>
+                <ns3:type>OTHER</ns3:type>
+            </ns3:attribute>
+            <ns3:attribute>
+                <ns3:id>PERIODO_RECOGIDA</ns3:id>
+                <ns3:name>
+                    <cdomain:text xml:lang="en">Time period - collection</cdomain:text>
+                    <cdomain:text xml:lang="es">Periodo - recogida</cdomain:text>
+                </ns3:name>
+                <ns3:attachmentLevel>DIMENSION</ns3:attachmentLevel>
+                <ns3:dimensions total="1">
+                    <ns3:dimension>
+                        <ns3:dimensionId>TIME_PERIOD</ns3:dimensionId>
+                    </ns3:dimension>
+                </ns3:dimensions>
+                <ns3:type>OTHER</ns3:type>
+            </ns3:attribute>
+            <ns3:attribute>
+                <ns3:id>MULTIPLICADOR_UNIDAD</ns3:id>
+                <ns3:name>
+                    <cdomain:text xml:lang="en">Unit multiplier</cdomain:text>
+                    <cdomain:text xml:lang="es">Multiplicador de la unidad</cdomain:text>
+                </ns3:name>
+                <ns3:attachmentLevel>DIMENSION</ns3:attachmentLevel>
+                <ns3:dimensions total="1">
+                    <ns3:dimension>
+                        <ns3:dimensionId>MEDIDAS</ns3:dimensionId>
+                    </ns3:dimension>
+                </ns3:dimensions>
+                <ns3:type>OTHER</ns3:type>
+            </ns3:attribute>
+            <ns3:attribute>
+                <ns3:id>UNIDAD_MEDIDA</ns3:id>
+                <ns3:name>
+                    <cdomain:text xml:lang="en">Unit of measure</cdomain:text>
+                    <cdomain:text xml:lang="es">Unidad de medida</cdomain:text>
+                </ns3:name>
+                <ns3:attachmentLevel>DIMENSION</ns3:attachmentLevel>
+                <ns3:dimensions total="1">
+                    <ns3:dimension>
+                        <ns3:dimensionId>MEDIDAS</ns3:dimensionId>
+                    </ns3:dimension>
+                </ns3:dimensions>
+                <ns3:type>OTHER</ns3:type>
+            </ns3:attribute>
+        </ns3:attributes>
+        <ns3:formatExtentObservations>414</ns3:formatExtentObservations>
+        <ns3:formatExtentDimensions>4</ns3:formatExtentDimensions>
+        <ns3:formatExtentTableSize>414</ns3:formatExtentTableSize>
+        <ns3:updateFrequency kind="structuralResources#code">
+            <cdomain:id>A</cdomain:id>
+            <cdomain:urn>urn:sdmx:org.sdmx.infomodel.codelist.Code=ISTAC:CL_FREQ(01.003).A</cdomain:urn>
+            <cdomain:selfLink kind="structuralResources#code" href="https://datos.canarias.es/api/estadisticas/structural-resources/latest/codelists/ISTAC/CL_FREQ/01.003/codes/A"/>
+            <cdomain:name>
+                <cdomain:text xml:lang="ca">Anual</cdomain:text>
+                <cdomain:text xml:lang="en">Annual</cdomain:text>
+                <cdomain:text xml:lang="es">Anual</cdomain:text>
+            </cdomain:name>
+        </ns3:updateFrequency>
+        <ns3:statisticOfficiality>
+            <cdomain:id>OFFICIAL</cdomain:id>
+            <cdomain:name>
+                <cdomain:text xml:lang="es">Estadística oficial</cdomain:text>
+            </cdomain:name>
+        </ns3:statisticOfficiality>
+        <ns3:bibliographicCitation>
+            <cdomain:text xml:lang="es">A05003423 (2024) Residuos urbanos según tipos de residuos. Canarias por años (v1.0) [dataset]. Instituto Canario de Estadística (https://datos.canarias.es/api/estadisticas/statistical-resources/v1.0/datasets/ISTAC/C00044A_000002/1.0)</cdomain:text>
+        </ns3:bibliographicCitation>
+        <ns3:keepAllData>true</ns3:keepAllData>
+    </ns3:metadata>
+    <ns3:data>
+        <ns3:dimensions total="4">
+            <ns3:dimension>
+                <ns3:dimensionId>TERRITORIO</ns3:dimensionId>
+                <ns3:representations total="1">
+                    <ns3:representation code="ES70" index="0"/>
+                </ns3:representations>
+            </ns3:dimension>
+            <ns3:dimension>
+                <ns3:dimensionId>TIME_PERIOD</ns3:dimensionId>
+                <ns3:representations total="18">
+                    <ns3:representation code="2004" index="0"/>
+                    <ns3:representation code="2005" index="1"/>
+                    <ns3:representation code="2006" index="2"/>
+                    <ns3:representation code="2007" index="3"/>
+                    <ns3:representation code="2008" index="4"/>
+                    <ns3:representation code="2009" index="5"/>
+                    <ns3:representation code="2010" index="6"/>
+                    <ns3:representation code="2011" index="7"/>
+                    <ns3:representation code="2012" index="8"/>
+                    <ns3:representation code="2013" index="9"/>
+                    <ns3:representation code="2014" index="10"/>
+                    <ns3:representation code="2015" index="11"/>
+                    <ns3:representation code="2016" index="12"/>
+                    <ns3:representation code="2017" index="13"/>
+                    <ns3:representation code="2018" index="14"/>
+                    <ns3:representation code="2019" index="15"/>
+                    <ns3:representation code="2020" index="16"/>
+                    <ns3:representation code="2021" index="17"/>
+                </ns3:representations>
+            </ns3:dimension>
+            <ns3:dimension>
+                <ns3:dimensionId>TIPO_RESIDUO</ns3:dimensionId>
+                <ns3:representations total="23">
+                    <ns3:representation code="013" index="0"/>
+                    <ns3:representation code="_S1" index="1"/>
+                    <ns3:representation code="_O" index="2"/>
+                    <ns3:representation code="0731" index="3"/>
+                    <ns3:representation code="06" index="4"/>
+                    <ns3:representation code="_T" index="5"/>
+                    <ns3:representation code="121" index="6"/>
+                    <ns3:representation code="1021" index="7"/>
+                    <ns3:representation code="0841" index="8"/>
+                    <ns3:representation code="074" index="9"/>
+                    <ns3:representation code="072" index="10"/>
+                    <ns3:representation code="101_L1" index="11"/>
+                    <ns3:representation code="082_0843" index="12"/>
+                    <ns3:representation code="081" index="13"/>
+                    <ns3:representation code="101_L2" index="14"/>
+                    <ns3:representation code="11" index="15"/>
+                    <ns3:representation code="076" index="16"/>
+                    <ns3:representation code="075" index="17"/>
+                    <ns3:representation code="_S2" index="18"/>
+                    <ns3:representation code="09" index="19"/>
+                    <ns3:representation code="0212" index="20"/>
+                    <ns3:representation code="071" index="21"/>
+                    <ns3:representation code="05" index="22"/>
+                </ns3:representations>
+            </ns3:dimension>
+            <ns3:dimension>
+                <ns3:dimensionId>MEDIDAS</ns3:dimensionId>
+                <ns3:representations total="1">
+                    <ns3:representation code="RESIDUOS" index="0"/>
+                </ns3:representations>
+            </ns3:dimension>
+        </ns3:dimensions>
+        <ns3:attributes total="2">
+            <ns3:attribute id="NOTAS_DATASET">A partir del año 2011, los datos correspondientes a residuos domésticos mezclados, vidrio, papel y cartón, residuos animales y vegetales así como los residuos de envases mixtos, han sido suministrados por el Ministerio de Agricultura, Alimentación y Medio Ambiente.  Las estimaciones del resto de categorías, provienen de la encuesta sobre recogida y tratamiento de residuos. Los medicamentos no utilizados, los residuos de caucho y los residuos sanitarios y biológicos están incluidas en la categoría de "Otros". La categoría "07.4 Residuos plásticos" no incluye los embalajes en los datos anteriores al año 2009.</ns3:attribute>
+            <ns3:attribute id="ESTADO_OBSERVACION"> |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | M |  |  |  |  |  |  |  |  |  |  |  |  | M |  |  |  |  |  |  |  |  |  | M |  |  |  |  |  |  |  |  |  |  |  |  | M |  |  |  |  |  |  |  |  |  | M |  |  | M |  |  |  |  |  |  |  |  |  | M |  |  |  |  |  |  | M |  | M | M |  |  | M |  |  |  |  |  |  |  |  |  | M |  |  |  |  |  |  | M |  | M | M |  |  | M |  |  |  |  |  |  |  |  |  | M |  |  |  |  |  |  | M |  | M | M |  |  | M |  |  |  |  |  |  |  |  |  | M |  |  |  |  |  |  | M |  | M | M |  |  | M |  |  |  |  |  |  |  |  |  | M |  |  |  |  |  |  | M |  | M | M |  |  | M |  |  |  |  |  |  |  |  |  | M |  |  |  |  |  |  | M |  | M | M |  |  | M |  |  |  |  |  |  |  |  |  | M |  |  |  |  |  |  | M |  | M | M |  |  | M |  |  |  |  |  |  |  |  |  | M |  |  |  |  |  |  | M |  | M | M |  |  | M |  |  |  |  |  |  |  |  |  | M |  |  |  |  |  |  | M |  | M | M |  |  | M |  |  |  |  |  |  |  |  |  | M |  |  |  |  |  |  | M |  | M | M |  |  | M |  |  |  |  |  |  |  |  |  | M |  |  |  |  |  |  | M |  | M</ns3:attribute>
+        </ns3:attributes>
+        <ns3:observations>14286 | 1162450 | 33 | 6310 | 24701 | 1474999 | 2010 | 105421 | 377 | 7146 | 26512 | 1099401 | 1080 | 53 | 63049 | 0 | 786 | 10175 | 312549 | 16189 | 595 | 18475 | 78400 | 547 | 1169504 | 1591 | 4340 | 10146 | 1448386 | 49151 | 64421 | 167 | 6051 | 60548 | 1141005 | 786 | 79 | 28499 | 11863 | 266 | 6060 | 278882 | 21322 | 22 | 18237 | 23285 | 751 | 1105084 | 1228 | 2863 | 4850 | 1397206 | 106046 | 25627 | 115 | 3720 | 76863 | 1059605 | 2712 | 159 | 45479 | 10935 | 59 | 6553 | 292122 | 17612 | 35 | 20414 | 11580 | 10 | 992184 | 34 | 5338 | 1768 | 1210410 | 41647 | 14262 | 2 | 3638 | 80668 | 950723 | 0 | 3646 | 41461 | 9649 | 53 | 7902 | 218226 | 21462 | 0 | 20298 | 7849 | 2203 | 1045068 | 0 | 5096 | 1362 | 1255650 | 23587 | 58322 | 198 | 6604 | 72907 | 1015140 | 1105 | 568 | 29928 | 781 | 54 | 5424 | 210582 | 6611 | 0 | 24266 | 1494 |  | 994498 | 2551 | 1023 | 1714 | 1151349 | 6695 | 29450 | 100 | 3362 | 77579 | 968176 | 1135 |  | 26322 | 5420 | 0 | 643 | 156851 | 750 | 0 | 26005 | 424 |  | 1250983 | 6475 | 4840 | 1953 | 1439982 | 25407 | 19801 | 61 | 7952 | 69027 | 1220612 | 1826 |  | 30371 | 8258 | 141 | 2601 | 188999 | 13089 | 68 | 27221 | 279 |  | 1181424 | 4367 |  | 1529 | 1388895 | 24592 | 14770 | 28 | 6878 | 34043 | 1151544 | 1908 |  | 29880 | 7073 | 373 | 4734 | 207471 | 78136 |  | 29040 |  |  | 1162173 | 3912 |  | 1012 | 1310231 | 20521 | 15333 | 55 | 6497 | 33507 | 1134763 | 1935 |  | 27410 | 5798 | 401 | 3484 | 148058 | 26477 |  | 29126 |  |  | 1072168 | 4782 |  | 253 | 1204821 | 8872 | 15880 | 21 | 1 | 30624 | 1052980 | 819 |  | 19188 | 0 | 10 | 718 | 132653 | 41310 |  | 29363 |  |  | 1127565 | 1063 |  | 520 | 1259718 | 9568 | 16225 | 676 | 31 | 30659 | 1090966 | 2308 |  | 36599 | 0 | 460 | 681 | 132153 | 38799 |  | 31163 |  |  | 1144978 | 1053 |  | 515 | 1264095 | 9477 | 16990 | 814 | 31 | 31543 | 1108156 | 2779 |  | 36822 | 0 | 474 | 675 | 119117 | 21541 |  | 33225 |  |  | 1096600 | 3597 |  | 1096 | 1245102 | 24239 | 18950 | 48 | 4549 | 33094 | 1073045 | 5182 |  | 23555 | 0 | 1078 | 774 | 148502 | 19956 |  | 35939 |  |  | 1145477 | 216 |  | 1334 | 1295469 | 28244 | 20067 | 209 | 76 | 31954 | 1123413 | 4541 |  | 22064 | 0 | 1045 | 1606 | 149992 | 21812 |  | 38888 |  |  | 1154154 | 138 |  | 2305 | 1331187 | 34114 | 22676 | 385 | 5 | 40485 | 1128714 | 5969 |  | 25440 | 0 | 142 | 1649 | 177033 | 27922 |  | 41243 |  |  | 1071767 | 103 |  | 3350 | 1282486 | 46339 | 27975 | 134 | 17 | 48375 | 1029102 | 4512 |  | 42665 | 0 | 398 | 3721 | 210719 | 31446 |  | 44349 |  |  | 886249 | 154 |  | 2375 | 1130097 | 34939 | 35965 | 52 | 998 | 92799 | 882886 | 4703 |  | 3363 | 0 | 264 | 1519 | 243848 | 34792 |  | 35288 |  |  | 982864 | 153 |  | 3092 | 1196050 | 65473 | 29227 | 80 | 1090 | 20323 | 979325 | 7331 |  | 3539 | 0 | 489 | 3677 | 213186 | 46736 |  | 35515 | </ns3:observations>
+    </ns3:data>
+</stat:dataset>
